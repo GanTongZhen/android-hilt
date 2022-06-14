@@ -40,10 +40,10 @@ import javax.inject.Inject
 class LogsFragment : Fragment() {
 
     @Inject
-    private lateinit var logger: LoggerLocalDataSource
+    lateinit var logger: LoggerLocalDataSource
 
     @Inject
-    private lateinit var dateFormatter: DateFormatter
+    lateinit var dateFormatter: DateFormatter
 
     private lateinit var recyclerView: RecyclerView
 
